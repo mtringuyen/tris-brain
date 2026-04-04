@@ -1,10 +1,11 @@
 {
   "name": "tris-brain",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Manage Tri's second brain in Obsidian following Steph Ango's vault system. Handles note creation, journaling, knowledge capture, retrieval, and vault organization.",
   "author": {
     "name": "Tri Nguyen"
   },
+  "repository": "https://github.com/tringuyen/tris-brain",
   "license": "MIT",
   "keywords": [
     "obsidian",

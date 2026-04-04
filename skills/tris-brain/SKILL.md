@@ -1,6 +1,7 @@
 ---
 name: tris-brain
-description: "Manage Tri's second brain in Obsidian (tri-obsidian vault) following Steph Ango's system. Create, search, explore, and review personal knowledge. Use when the user mentions their brain, second brain, vault, journal, evergreen notes, clippings, references, weekly to-dos, or says 'save to vault', 'add to brain', 'what do I know about', 'search my brain', 'find in vault', 'random revisit', 'weekly/monthly/yearly review', 'show connections', 'audit vault', or anything about personal knowledge management."
+version: 1.0.1
+description: "Manage Tri's second brain in Obsidian (tri-obsidian vault) following Steph Ango's file-over-app system. Create journal entries, evergreen notes, references, clippings. Search and explore the knowledge graph. Run weekly/monthly/yearly review routines. Audit vault health. Use when the user mentions their brain, vault, personal notes, journal, clippings, references, or says 'save to vault', 'what do I know about', 'search my brain', 'random revisit', 'weekly review', 'show connections', 'audit vault'."
 ---
 
 # Tri's Brain — Obsidian Vault System
@@ -264,6 +265,13 @@ A note called **Review Tracker** in the vault root tracks when each review level
 obsidian vault="tri-obsidian" read file="Review Tracker"
 ```
 
+If the note doesn't exist (command returns error), create it:
+
+```bash
+obsidian vault="tri-obsidian" create name="Review Tracker" \
+  content="---\ncategories:\n  - \"[[Projects]]\"\ntags:\n  - reviews\n  - routines\ncreated: 2026-04-04\n---\n\n# Review Tracker\n\n| Review Level | Cadence | Last Completed | Next Due |\n|-------------|---------|----------------|----------|\n| Thought Compilation | Every few days | — | — |\n| Weekly To-Dos | Weekly (Monday) | — | — |\n| Monthly Review | Monthly (1st) | — | — |\n| Random Revisit | Every 2-3 months | — | — |\n| Yearly Review | December | — | — |\n| Decade Review | Every 10 years | — | — |\n\n## Log\n" silent
+```
+
 Flag any overdue reviews before proceeding. After completing a review, update the tracker:
 
 ```bash
@@ -319,7 +327,7 @@ Compile themes, patterns, key moments. Link back to source notes.
 
 ### Yearly Review
 
-Work through the 40 questions. See `references/40-questions-yearly.md`.
+Work through the 40 questions. Load the question list from this skill's bundled file at `references/40-questions-yearly.md` (use the Read tool on the file relative to this skill's directory). For decade reviews, load `references/40-questions-decade.md`.
 
 ```bash
 obsidian vault="tri-obsidian" create name="2026 Yearly Review" \
