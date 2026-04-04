@@ -1,5 +1,6 @@
 {
   "name": "tris-brain",
+  "description": "Personal knowledge management plugin for Obsidian following Steph Ango's vault system",
   "owner": {
     "name": "Tri Nguyen"
   },
@@ -8,7 +9,7 @@
       "name": "tris-brain",
       "source": "./",
       "description": "Manage Tri's second brain in Obsidian following Steph Ango's vault system",
-      "version": "1.0.0"
+      "version": "1.0.1"
     }
   ]
 }
