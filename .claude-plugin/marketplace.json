@@ -1,0 +1,14 @@
+{
+  "name": "tris-brain",
+  "owner": {
+    "name": "Tri Nguyen"
+  },
+  "plugins": [
+    {
+      "name": "tris-brain",
+      "source": "./",
+      "description": "Manage Tri's second brain in Obsidian following Steph Ango's vault system",
+      "version": "1.0.0"
+    }
+  ]
+}
