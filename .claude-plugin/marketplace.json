@@ -9,7 +9,7 @@
       "name": "tris-brain",
       "source": "./",
       "description": "Manage Tri's second brain in Obsidian following Steph Ango's vault system",
-      "version": "1.0.2"
+      "version": "1.1.0"
     }
   ]
 }
