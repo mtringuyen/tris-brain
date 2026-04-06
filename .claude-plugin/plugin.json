@@ -1,7 +1,7 @@
 {
   "name": "tris-brain",
-  "version": "1.0.2",
-  "description": "Manage Tri's second brain in Obsidian following Steph Ango's vault system. Handles note creation, journaling, knowledge capture, retrieval, and vault organization.",
+  "version": "1.1.0",
+  "description": "Manage Tri's second brain in Obsidian following Steph Ango's vault system. Handles note creation, journaling, knowledge capture, retrieval, vault organization, and architecture decision journaling with Eskil Steenberg's black box design principles.",
   "author": {
     "name": "Tri Nguyen"
   },
@@ -12,6 +12,10 @@
     "second-brain",
     "knowledge-management",
     "stephango",
-    "pkm"
+    "pkm",
+    "architecture",
+    "adr",
+    "design-thinking",
+    "black-box"
   ]
 }
