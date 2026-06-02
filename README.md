@@ -12,9 +12,11 @@ A Claude Code plugin for managing Tri's second brain in Obsidian, following [Ste
 ## Install
 
 ```bash
-claude plugin marketplace add ~/Developer/tris-brain
+claude plugin marketplace add mtringuyen/tris-brain
 claude plugin install tris-brain@tris-brain
 ```
+
+> Private repo — installing requires `gh`/git credentials with read access to `mtringuyen/tris-brain`.
 
 ## Vault
 
