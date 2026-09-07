@@ -8,8 +8,8 @@
     {
       "name": "tris-brain",
       "source": "./",
-      "description": "Manage Tri's second brain in Obsidian following Steph Ango's vault system",
-      "version": "1.1.0"
+      "description": "Manage Tri's second brain in Obsidian following Steph Ango's vault system, with architecture decision journaling and article-to-Anki summarization",
+      "version": "1.2.0"
     }
   ]
 }

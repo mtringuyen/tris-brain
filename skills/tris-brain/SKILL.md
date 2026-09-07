@@ -10,6 +10,8 @@ Manage Tri's personal knowledge base in the **tri-obsidian** vault, following St
 
 > **Core philosophy: File over app.** Plain text Markdown files you control. Portable, durable, yours forever.
 
+For the full vault system overview (philosophy, naming, workflows), load this skill's bundled file at `references/stephango-system.md` (use the Read tool on the file relative to this skill's directory).
+
 ## Always target the vault
 
 ```bash
